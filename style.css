@@ -1,0 +1,7 @@
+/* Make the table header sticky */
+table thead {
+    position: sticky;
+    top: 0; /* Keeps the header at the top of the viewport */
+    background-color: white; /* Optional: Add a background color to ensure the header is visible */
+    z-index: 1; /* Optional: Ensure the header stays above the table rows */
+}
